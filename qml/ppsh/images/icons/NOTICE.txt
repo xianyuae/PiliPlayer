@@ -1,0 +1,4 @@
+Icons from Google Material Symbols (Material Symbols Outlined)
+Source: https://fonts.google.com/icons
+License: Apache License 2.0
+https://www.apache.org/licenses/LICENSE-2.0

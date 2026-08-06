@@ -1,0 +1,22 @@
+# Build artifacts
+/ppsh
+/ppsh_*.deb
+/ppsh_*.changes
+/Makefile
+/ppsh.pro.user
+/.buildtmp/
+/.qmlcheck/
+/moc/
+/obj/
+/rcc/
+/ui/
+
+# Qt creator / test build output
+*.o
+*.moc
+/qml/refreshtest*/
+/qml/test-refresh.qml
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
