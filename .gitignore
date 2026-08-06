@@ -4,6 +4,7 @@
 /ppsh_*.changes
 /Makefile
 /ppsh.pro.user
+/ppsh.pro.user.*.bak
 /.buildtmp/
 /.qmlcheck/
 /moc/

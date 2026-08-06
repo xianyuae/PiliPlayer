@@ -14,7 +14,7 @@ Pili Player 是一个面向 **MeeGo Harmattan** 的 Bilibili 客户端，使用 
 - `qml/`：QML 界面、组件和 JavaScript API 封装
 - `kmplayer++/`、`kmplayer++_src/`：播放器相关组件
 - `i18n/`：翻译源文件和编译后的翻译文件
-- `debian/`、`qtc_packaging/`：Debian/Harmattan 打包文件
+- `qtc_packaging/`：Qt Creator 使用的 Debian/Harmattan 打包模板
 
 ## 构建
 
@@ -26,11 +26,7 @@ Pili Player 是一个面向 **MeeGo Harmattan** 的 Bilibili 客户端，使用 
    make
    ```
 
-3. 如需生成 Debian 包，在 SDK 的打包环境中执行：
-
-   ```sh
-   dpkg-buildpackage -us -uc
-   ```
+3. 如需生成 Debian 包，请在 Qt Creator 中启用影子构建，并使用 Harmattan 目标下的“创建Deb包”部署步骤。打包模板位于 `qtc_packaging/debian_harmattan/`。
 
    生成的 `.deb` 文件应在目标设备上安装，并使用与该设备匹配的运行时库。
 
@@ -46,7 +42,7 @@ Pili Player 主体代码版权声明如下：
 Copyright (C) 2014 karin <beyondk2000@gmail.com>
 ```
 
-主体代码以 **GNU General Public License v2.0 or later（GPL-2.0-or-later）** 发布。完整许可证文本和 Debian 版权记录请参阅 [`debian/copyright`](debian/copyright)；源码树中第三方组件的作者、许可证和来源请参阅 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。第三方文件中的原有版权头和许可证条款必须保留，不能被本项目的主许可证声明替代。
+主体代码以 **GNU General Public License v2.0 or later（GPL-2.0-or-later）** 发布。完整许可证文本和 Debian 版权记录请参阅 [`qtc_packaging/debian_harmattan/copyright`](qtc_packaging/debian_harmattan/copyright)；源码树中第三方组件的作者、许可证和来源请参阅 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。第三方文件中的原有版权头和许可证条款必须保留，不能被本项目的主许可证声明替代。
 
 提交修改时请在相应文件中保留原作者信息，并按 GPL 要求标注修改内容和日期。除许可证明确授予的权利外，本项目不授予任何商标、品牌或 Bilibili 内容的使用权。
 
