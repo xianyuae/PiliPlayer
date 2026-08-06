@@ -1,4 +1,4 @@
-# Pili Player (ppsh)
+# Pili Player
 
 Pili Player 是一个面向 **MeeGo Harmattan** 的 Bilibili 客户端，使用 Qt/QML 和 C++ 编写。项目保留了原版 Harmattan 应用的界面与播放器实现，并包含登录、搜索、视频/番剧浏览、收藏、历史记录、直播及评论等功能模块。
 
