@@ -310,7 +310,7 @@ BasePage {
 						width: parent.width;
 						horizontalAlignment: Text.AlignHCenter;
 						wrapMode: Text.WordWrap;
-						text: "本分支持续维护中，也欢迎各位开发者参与优化此软件。";
+						text: "本分支由 xianyuaa123@gmail.com 维护，同时也希望各位大佬参与优化此软件。";
 						font.pixelSize: constants._iFontXL;
 						font.bold: true;
 						color: constants._bInverted ? "#8fd3ff" : "#0d47a1";
@@ -348,6 +348,7 @@ BasePage {
 							{ label: "版本", value: _UT.Get("VER") },
 							{ label: "时间", value: _UT.Get("RELEASE") },
 							{ label: "Qt", value: _UT.Get("QT") },
+							{ label: "项目", value: "<a href='https://github.com/xianyuae/PiliPlayer'>PiliPlayer</a>" },
 							{ label: "参考项目", value: "<a href='https://github.com/guozhigq/pilipala'>PiliPala</a>" },
 						]
 						delegate: infoRow;
